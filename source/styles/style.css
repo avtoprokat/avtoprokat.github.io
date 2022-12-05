@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);
+body {
+    font-family: Roboto Slab, serif;
+    background-color: rgb(47, 53, 58);
+    background-color: #d1d1d1;
+}
+
+/* nav {
+    background-color: #ff6a28;
+} */
+
+h1 {
+    color: black;
+}
+h2 {
+    color: #0d6efd;
+}
+
+p {
+    color: white;
+}
+
+.navbar {
+    margin: 0.5em;
+    border-radius: 10px 10px;
+}
+
+.nav-link {
+    color: white ;
+    margin-inline: 0.13em;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(122, 122, 122);
+}
+
+.navbar-brand img {
+    width: 4em;
+}
+
+.navbar-toggler {
+    background-color: rgb(47, 53, 58);
+    
+}
+
+.nav-item {
+    margin: 0.5em;
+}
+
+.sitebar {
+    /* color: black; */
+    background-color: rgb(33, 37, 41);
+    border: 1em;
+    border-color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.sitebar a {
+    text-decoration: none;
+    color:#0d6efd;
+}
+
+.card {
+    background-color: rgb(33, 37, 41);
+    /* background-color: #ff6a28; */
+    color: white;
+    border: 1em;
+    border-color: white;
+}
+
+.carousel-inner {
+    border-radius: 10px 10px;
+    background-color: rgb(33, 37, 41);
+    /* background-color: #ff6a28; */
+}
+
+.slide-text,
+.fotter-text {
+    color: white;
+    margin: auto auto;
+}
+
+.col-lg-6.col-md-6>img {
+    border-radius: 10px 10px;
+    border: 1em;
+    border-color: white;
+}
+
+html>body>footer {
+    background-color: rgb(33, 37, 41);
+    /* background-color: #ff6a28; */
+    margin: 0.5em;
+    border: 1em;
+    border-color: white;
+    border-radius: 10px 10px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-index {
+    color: black;
+}
+
+/* .call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+} */
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
