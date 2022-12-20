@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);
+
 body {
     font-family: Roboto Slab, serif;
     background-color: rgb(47, 53, 58);
@@ -8,17 +9,45 @@ body {
 /* nav {
     background-color: #ff6a28;
 } */
+.jopa {
+    margin: 2em;
+}
+
+.auto-item {
+    justify-content: space-between;
+    color: white;
+    border:0em;
+    background-color: rgb(33, 37, 41);
+}
+
+.tarif-item {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border:0em;
+    background-color: rgb(33, 37, 41);
+    border-bottom: 3px solid #0d6efd;
+}
+
+.tarif-h5 {
+    color: white;
+}
 
 h1 {
-    color: black;
+    color: rgb(33, 37, 41);
+    font-size: 50px;
+    background: radial-gradient(#373d44 -50%, #d1d1d1 70%);
 }
 
-h2 {
+h2,
+h5,
+h6 {
     color: #0d6efd;
 }
 
-h3 {
-    color: #0d6efd;
+.text-gl {
+    background-color: #212529;
+    border-radius: 10px 10px;
 }
 
 p {
@@ -30,8 +59,12 @@ p {
     border-radius: 10px 10px;
 }
 
+.navbar-collapse {
+    justify-content: space-between;
+}
+
 .nav-link {
-    color: white ;
+    color: white;
     margin-inline: 0.13em;
 }
 
@@ -45,7 +78,7 @@ p {
 
 .navbar-toggler {
     background-color: rgb(47, 53, 58);
-    
+
 }
 
 .nav-item {
@@ -63,7 +96,7 @@ p {
 
 .sitebar a {
     text-decoration: none;
-    color:#0d6efd;
+    color: #0d6efd;
 }
 
 .card {
@@ -108,12 +141,74 @@ html>body>footer {
 }
 
 .text-index {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-/* .call-anim {
-    animation: myAnim 2s ease 0s infinite normal forwards;
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border: 1px solid #000;
+    border-radius: 10px 10px;
 }
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.img-container {
+    position: relative;
+    height: 70vh;
+    /*Вместо height: 70vh можно использовать padding-bottom: 56.25%; /* соотношение 16:9 */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    opacity: .6;
+  }
+
+.call-anim {
+    margin-right: 10px;
+    animation: myAnim 5s ease 0s infinite normal forwards;
+}
+
+/* @keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-1px, 1px);
+	}
+
+	40% {
+		transform: translate(-1px, -1px);
+	}
+
+	60% {
+		transform: translate(1px, 1px);
+	}
+
+	80% {
+		transform: translate(1px, -1px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+} */
 
 @keyframes myAnim {
 	0%,
@@ -123,25 +218,25 @@ html>body>footer {
 	}
 
 	15% {
-		transform: translateX(-30px) rotate(-6deg);
+		transform: translateX(-4px) rotate(-6deg);
 	}
 
 	30% {
-		transform: translateX(15px) rotate(6deg);
+		transform: translateX(4px) rotate(6deg);
 	}
 
 	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
+		transform: translateX(-4px) rotate(-3.6deg);
 	}
 
 	60% {
-		transform: translateX(9px) rotate(2.4deg);
+		transform: translateX(3px) rotate(2.4deg);
 	}
 
 	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
+		transform: translateX(-1px) rotate(-1.2deg);
 	}
-} */
+}
 
 @media (max-width: 755px) {
     .carousel-indicators {

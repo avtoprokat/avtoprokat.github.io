@@ -1,52 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="source/styles/style.css">
-    <title>Условия Аренды</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="source/styles/style.css">
+  <title>Условия Аренды</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="/"><img src="source/files/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item mx-2">
-                    <a class="nav-link" aria-current="page" href="/">ГЛАВНАЯ СТРАНИЦА</a>
-                    <!-- <a href="index.html" class="nav-link active btn btn-primary">ГЛАВНАЯ СТРАНИЦА</a> -->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="arenda.html">УСЛОВИЯ АРЕНДЫ</a>
-                  </li>
-                  <li class="nav-item">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="source/files/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="/">ГЛАВНАЯ СТРАНИЦА</a>
+              <!-- <a href="index.html" class="nav-link active btn btn-primary">ГЛАВНАЯ СТРАНИЦА</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="arenda.html">УСЛОВИЯ АРЕНДЫ</a>
+            </li>
+            <!-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="prices.html">ЦЕНЫ</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">ПАРК АВТОМОБИЛЕЙ</a>
-                    <!-- <a href="pricing.html" class="nav-link btn btn-primary">ПАРК АВТОМОБИЛЕЙ</a> -->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="contacts.html">КОНТАКТЫ</a>
-                  </li>
-                </ul>
+                  </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">ПАРК АВТОМОБИЛЕЙ</a>
+              <!-- <a href="pricing.html" class="nav-link btn btn-primary">ПАРК АВТОМОБИЛЕЙ</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contacts.html">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <a href="tel:+7 (4712) 388-888" class="btn btn-primary btn-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-telephone call-anim" viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg>
+              +7 (4712) 388-888
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+
+
+
+
+
+
+
+
+    <div class="container-fluid mt-4">
+        <div class="col-lg-12 col-md-12 mb-4"><h3 style="font-size: 48px; border-bottom: 3px solid #000000;">УСЛОВИЯ НА АРЕНДУ И ПРОКАТ АВТОМОБИЛЕЙ</h3></div>
+      <div class="row">
+        <div class="col-lg-0"></div>
+        <div class="col-lg-8 col-md-12">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <div class="card col-lg-12 sitebar">
+                  <h2>ТРЕБОВАНИЯ К АРЕНДАТОРУ</h2>
+                  <p class="text-index">Минимальный возраст Клиента: от 23-х лет. Водительский стаж: от 2-х лет. Автомобиль предоставляется гражданам Российской Федерации, при наличии регистрации на территории РФ а так же действующем водительским удостоверением.</p>
+                  <p class="text-index">Условия для нерезедента РФ: Наша компания предоставляет право управления автомобилем иностранным гражданам, при условии заключения договора проката с гражданином РФ и наличием водительского удостоверения международного образца иностранного водителя.</p>
+                  <p class="text-index">Компания вправе отказать в услуге потенциальному клиенту без объяснения каких либо причин. Служба безопасности оценивает риски передачи имущества.</p>
+                </div>
               </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="card col-lg-12 sitebar my-4">
+                        <h2>ЗАЛОГ И ДОП. РАСХОДЫ</h2>
+                        <p class="text-index">Арендатор оставляет залог в размере от 3000 рублей на доп. расходы в виде мойки автомобиля, заправки топлива и иных денежные взысканий, связанных с несоответствием первоначального состояния автомобиля на момент его передачи Арендатору.</p>
+                        <p class="text-index">Возврат залога Арендатору происходит в день сдачи автомобиля при условии чистого автомобиля и заправленного бака топливом.</p>
+                        <p class="text-index">Если Арендатор по каким-либо причинам не имеет возможности вернуть автомобиль в первоначальном состоянии, то возврат залога клиенту происходит на следующий рабочий день после мойки и осмотра чистого автомобиля а так же заправки топливом в отсутствии Арендатора.</p>
+                        <p class="text-index">При возврате автомобиля, имеющего сильные загрязнения салона, с неполным баком топлива, а также при его возврате с опозданием или вне пункта приема/передачи автомобиля, с Арендатора удерживается стоимость соответствующих услуг в размере, указанных в тарифах к договору..</p>
+                      </div>
+                    </div>
             </div>
-          </nav>
-    </header>
-    <section></section>
-    <footer></footer>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="row px-2">
+            <div class="card col-lg-12 sitebar mb-4">
+                <h2>ИСПОЛЬЗОВАНИЕ АВТОМОБИЛЯ</h2>
+                <p class="text-index">Наша компания готова предоставить автомобиль практически на любые адекватные цели. В такси автомобили не предоставляем!</p>
+                <p class="text-index">Для получения подробной информации, звоните по номеру:
+                  +7 (4712) 388-888 или пишите Telegram, WhatsApp: +7-800-555-35-35.</p>
+            </div>
+            <div class="card col-lg-12 sitebar mb-4">
+              <h2>ТАРИФЫ НА ПРОКАТ АВТО</h2>
+              <p class="text-index">Дорогие клиенты! В нашей компании отсутствует суточное ограничение по пробегу. Мы предоставляем авто по 3-м тарифам:</p>
+              <p class="text-index">– “ГОРОД” (данный тариф предоставляет возможность использовать автомобиль в городе Курск, а также на расстоянии до 100 км от г. Курск.)</p>
+              <p class="text-index">– “МЕЖГОРОД” (данный тариф предоставляет возможность использовать автомобиль на расстояние до 400 км от г. Курск).</p>
+              <p class="text-index">– “РОССИЯ” (данный тариф предоставляет возможность использовать автомобиль на расстояние до 800 км от города Курск и более, но крайний пункт согласовывается с Арендодателем.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+      </div>
 
-    
+
+
+  </section>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 fotter-text text-center mt-4">
+          <p>50 лет Октября ул., 94, Курск, Курская обл., Российская Федерация, 305040</p>
+          <p>email: info@avtoprokat.github.io</p>
+        </div>
+        <div class="col-lg-3 col-md-12 fotter-text text-center mt-4">
+          <p>ВРЕМЯ РАБОТЫ</p>
+          <p>Будни: 9:00 - 21:00<br> Выходные: 11:00 - 18:00</p>
+        </div>
+        <div class="col-lg-3 col-md-12 fotter-text text-center mt-4">
+          <p>О нас<br> Работа</p>
+        </div>
+        <div class="col-lg-3 col-md-12 fotter-text media-links">
+          <a href="https://web.whatsapp.com/"><img style="width: 40px; margin: 0.5em;" src="source/files/phone.png" alt="whatsapp"></a>
+          <a href="https://web.telegram.org/"><img style="width: 40px; margin: 0.5em" src="source/files/tg.png" alt="telegram"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
